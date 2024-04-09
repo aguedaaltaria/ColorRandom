@@ -1,0 +1,143 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    background-color: #e2ccd3;
+    font-family: "Dancing Script", cursive;
+    margin: 0;
+    padding: 0;
+    /* border: #e94d4f 1rem solid; */
+}
+
+h1 {
+    margin: 50px auto 0;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-family: "Dancing Script", cursive;
+    /* font-family: 'Franklin Gothic Medium', sans-serif; */
+}
+
+button {
+    border-radius: 40%;
+    background-color: rgb(233, 233, 10);
+    width: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    color: rgb(161, 161, 19);
+    margin: 1rem auto;
+    outline: none;
+    font-weight: 600;
+}
+
+button:hover {
+    /* border: black solid 1px; */
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.9, 0.9);
+    background-color: rgb(209, 209, 26);
+}
+
+.tres div div {
+    width: 80px;
+    height: 80px;
+    background-color: #000;
+    margin: 5px auto;
+    border-radius: 25%;
+    border: 2px solid #cce2db;
+}
+
+.tres {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin: 1rem auto;
+}
+
+section p {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+section {
+    justify-content: center;
+    display: flex;
+}
+
+.list {
+    width: 450px;
+    margin: 3rem auto 0;
+    background-color: beige;
+    border-radius: 5px;
+    color: 	#945d36;
+    padding-bottom: 1rem;
+    margin-top: 0px;
+    /* text-align: center; */
+}
+
+.list p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+#corazon1 {
+    transform: rotate(-25deg) translate(14px, 6px);
+    display: inline-block;
+    font-size: 1.3rem;
+    position: fixed;
+    font-weight: 1000;
+}
+
+.tarea {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 5px 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.colorFav {
+    padding-left: 15px;
+    font-size: 1.2rem;
+    padding-left: 2.7rem ;
+}
+
+.closeBtn {
+    width: 1.2rem;
+    height: 1.2rem;
+    transform: translateX(-10px);
+}
+
+.closeBtn:hover {
+    cursor: pointer;
+}
+
+hr {
+    display: flex;
+    color: #b67344;
+    width: 340px;
+    height: 1px;
+    background-color: #b67344;
+    display: inline-block;
+    position: fixed;
+    transform: translate(35px, 12px);
+}
